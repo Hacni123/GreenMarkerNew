@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <ImageView
+            android:id="@+id/gardening_products"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gardening" />
+
+        <ImageView
+            android:id="@+id/spices_products"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/spices"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <ImageView
+            android:id="@+id/fruits_products"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fruitsvegetables"/>
+
+        <ImageView
+            android:id="@+id/tea_products"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tea"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear3_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <ImageView
+            android:id="@+id/horticulture_products"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/horticulture" />
+
+        <ImageView
+            android:id="@+id/newarrival_products"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/newarrivals"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

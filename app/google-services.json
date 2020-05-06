@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921561363790",
+    "firebase_url": "https://greenmarkernew.firebaseio.com",
+    "project_id": "greenmarkernew",
+    "storage_bucket": "greenmarkernew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921561363790:android:87fb552d02a804a34f9a1f",
+        "android_client_info": {
+          "package_name": "com.example.greenmarkernew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921561363790-ci4tsj1klu1mcrs6bvjvu24o8abkeg9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greenmarkernew",
+            "certificate_hash": "1f3c660f678c16150d492e408cb50625b4b2761d"
+          }
+        },
+        {
+          "client_id": "921561363790-70el4teae13liktrca756rcpva7e2lgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpJDwaIHFxaH5vqiDY1pXPVL6RfW60oik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921561363790-70el4teae13liktrca756rcpva7e2lgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
